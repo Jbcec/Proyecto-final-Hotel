@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS CLIENTES (
+    clt_ID INTEGER PRIMARY KEY AUTOINCREMENT,
+    clt_nombre TEXT NOT NULL,
+    clt_apellido TEXT NOT NULL,
+    clt_dni TEXT NOT NULL UNIQUE,
+    clt_telefono TEXT
+);

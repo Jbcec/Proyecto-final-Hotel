@@ -1,0 +1,11 @@
+# Crear una nueva habitación
+curl -X POST \
+  http://localhost:8080/api/habitaciones \
+  -H "Content-Type: application/json" \
+  -d '{
+    "numero": "101",
+    "capacidad": 2,
+    "precio": 100.50,
+    "estado": "Disponible"
+  }'
+

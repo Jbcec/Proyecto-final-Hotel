@@ -1,0 +1,11 @@
+# Crear un nuevo cliente
+curl -X POST \
+  http://localhost:8080/api/clientes \
+  -H "Content-Type: application/json" \
+  -d '{
+    "nombre": "Juan",
+    "apellido": "Pérez",
+    "dni": "12345678",
+    "telefono": "123-456-789"
+  }'
+

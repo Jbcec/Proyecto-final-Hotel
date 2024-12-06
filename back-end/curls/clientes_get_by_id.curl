@@ -1,0 +1,4 @@
+# Obtener un cliente por ID
+curl -X GET \
+  http://localhost:8080/api/clientes/1
+

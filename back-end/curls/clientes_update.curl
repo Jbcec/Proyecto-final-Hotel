@@ -1,0 +1,11 @@
+# Actualizar un cliente
+curl -X PUT \
+  http://localhost:8080/api/clientes/1 \
+  -H "Content-Type: application/json" \
+  -d '{
+    "nombre": "Juanita",
+    "apellido": "Pérez",
+    "dni": "12355678",
+    "telefono": "987-654-321"
+  }'
+

@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS HABITACIONES (
+    hbt_ID INTEGER PRIMARY KEY AUTOINCREMENT,
+    hbt_numero TEXT NOT NULL,
+    hbt_capacidad INTEGER NOT NULL,
+    hbt_precio REAL NOT NULL,
+    hbt_estado TEXT NOT NULL
+);

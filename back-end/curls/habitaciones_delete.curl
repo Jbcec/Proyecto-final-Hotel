@@ -1,0 +1,4 @@
+# Eliminar una habitación
+curl -X DELETE \
+  http://localhost:8080/api/habitaciones/1
+

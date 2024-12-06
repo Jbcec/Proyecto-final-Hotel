@@ -1,0 +1,11 @@
+# Actualizar una habitación
+curl -X PUT \
+  http://localhost:8080/api/habitaciones/1 \
+  -H "Content-Type: application/json" \
+  -d '{
+    "numero": "102",
+    "capacidad": 3,
+    "precio": 120.00,
+    "estado": "Ocupada"
+  }'
+
